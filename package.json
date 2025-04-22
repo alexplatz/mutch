@@ -1,0 +1,15 @@
+{
+  "name": "mutch",
+  "version": 1.0.0,
+  "description": "A simple, functional pattern matching library",
+  "keywords": ["pattern", "matching", "functional"],
+  "module": "src/index.ts",
+  "type": "module",
+  "license": "GPLv3",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
