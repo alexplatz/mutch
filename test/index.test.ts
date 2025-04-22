@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test"
-import { match } from "../src"
+import { match } from "../"
 
 test("matches undefined", () =>
   expect(
