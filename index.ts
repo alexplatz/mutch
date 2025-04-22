@@ -1,7 +1,7 @@
 export const match = <T,>(
   value: T,
-  whens: [T, (x?: T) => any][],
-  otherwise: (x?: T) => any
+  whens: [T, (x: T) => any][],
+  otherwise: (x: T) => any
 ) => {
   const result = whens.find(when => equals(value, when[0]))
   return result ? result[1](value) : otherwise(value)

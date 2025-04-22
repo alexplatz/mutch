@@ -1,6 +1,6 @@
 {
   "name": "mutch",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "A simple, functional pattern matching library",
   "keywords": ["pattern", "matching", "functional"],
   "type": "module",

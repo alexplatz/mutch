@@ -19,12 +19,12 @@ import { match } from 'mutch'
 
 So, if you wanted to match on some json, it'd look something like this:
 ```javascript
-const coords = { x: 1, y: 2 } 
+const coords = { x: 1, y: 2 }
 
 match(coords,
   [
-    [ { x: 1, y: 2 }, ({x, ...}: coords) => x ],
-    [ { x: 4, y: 8 }, ({..., y}: coords) => y ],
+    [{ x: 1, y: 2 }, (c) => c.x],
+    [{ x: 4, y: 8 }, (c) => c.y],
   ],
   () => 0
 )
