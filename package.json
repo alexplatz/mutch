@@ -1,11 +1,17 @@
 {
   "name": "mutch",
-  "version": 1.0.0,
+  "version": "1.0.0",
   "description": "A simple, functional pattern matching library",
   "keywords": ["pattern", "matching", "functional"],
-  "module": "src/index.ts",
   "type": "module",
   "license": "GPLv3",
+  "author": "Alex Platz",
+
+  "scripts": {
+    "build": "bun build src/index.ts --outfile lib/mutch.js --format esm"
+  },
+
+  "module": "src/index.ts",
   "devDependencies": {
     "@types/bun": "latest"
   },

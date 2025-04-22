@@ -34,6 +34,7 @@ match(coords,
 
 ## Why
 One of the limitations I've run into with modern javascript is the lack of pattern matching, a feature I've loved about more functional languages. Sure, js has `switch`, but that's a statement, and so the result cannot be intuitively captured the way you would any other data. While I recognize this library can 100% be made redundant by just arranging your `if`s in a certain pattern, the result is typically difficult to read or necessarily imperitive code. And I have enough of an issue with that that I wrote a library about it.
+
 Basically:
 - ternary chaining is hard to read -- an accessibility concern
 - `if` blocks are imperative
@@ -43,7 +44,7 @@ as for why *this* library:
 - it's reasonably functional under the hood
 - it's like 30 lines
 - it uses native, functional js syntax 
-- did I mention it's just a function? No magic.
+- did I mention it's just a function?
 
 ## Notes
 - I created this with performance in mind, but with the ultimate goal that it should be ergonomic and organic, so json deep equality is not explicitly supported

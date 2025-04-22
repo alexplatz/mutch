@@ -17,7 +17,7 @@ const compareObject = ({
   obj2,
   pos,
   equal
-}) =>
+}: { obj1: [string, any][], obj2: [string, any][], pos: number, equal: boolean }): { obj1: [string, any][], obj2: [string, any][], pos: number, equal: boolean } =>
   obj1[pos] && obj2[pos] && equal ?
     compareObject({
       obj1,
