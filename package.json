@@ -6,11 +6,6 @@
   "type": "module",
   "license": "GPLv3",
   "author": "Alex Platz",
-
-  "scripts": {
-    "build": "bun build src/index.ts --outfile lib/mutch.js --format esm"
-  },
-
   "module": "src/index.ts",
   "devDependencies": {
     "@types/bun": "latest"
